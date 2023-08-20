@@ -9,9 +9,9 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="assembly emulator",
-    version="1.0.3",
-    description="Emulate basic Lisp environment in python for educational reasons.",
+    name="assembly_emulator",
+    version="1.0.4",
+    description="Emulate basic Lisp environment in python3 for educational reasons.",
     long_description=README,
     long_description_content_type="text/markdown",
     author="jonaprojects",
