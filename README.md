@@ -1,8 +1,10 @@
 # Welcome to Emu++
 
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/assembly-emulator)
-
 ![GitHub](https://img.shields.io/github/license/jonaprojects/assemblyEmulator)
+![GitHub issues](https://img.shields.io/github/issues/jonaprojects/assemblyEmulator)
+
+
 
 A python library for emulating assembly x86. You can execute assembly code from the command line, or upload some code from a text file.
 
