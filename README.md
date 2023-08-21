@@ -24,13 +24,17 @@ asm8086_demo.main()
 
 And then you should see the folowing menu:
 
-![menu](image.png "Menu")
+![menu](screenshots/starting_menu.png "Menu")
 
 You can enter 'C' to continue in 'Console Mode'. In console mode, you can run each line and get an immediate feedback. Namely, after each command you execute you can view the changes in the registers, the stacks, etc.
 
 Alternatively, you can enter 'T' to enter 'Text Editor' mode. In text editor mode, you first enter all of your code and after you are done you can see the result.
 
 In order to move to the execution stage you can use the <code>%finish</code> special command. After that, you will see the relevant information about the execution and then you'll be able to save your program in a file of your choice.
+
+For instance:
+![text editor mode](screenshots/text_editor.png "Menu")
+
 
 You can also enter 'F' to upload the
 assembly code from an external file.
