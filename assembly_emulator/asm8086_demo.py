@@ -1355,7 +1355,7 @@ def analyze_errors(error_number):  # add line number as optional
 def analyze_special_commands(command):
     """ Performs actions according to the specified command . Returns True,Running if the command, else False,Running"""
     help_message = ''' 
-       These are the supported commands in this emulator:
+       These are the most fundamental supported commands in this emulator:
        mov <register/variable/address> , <register,variable,address,value> A = B
        add <register/variable/address> , <register,variable,address,value> A = A+B
        sub <register/variable/address> , <register,variable,address,value> - A = A-B
@@ -1363,12 +1363,14 @@ def analyze_special_commands(command):
        inc <register/variable/address> - increments by 1
        dec <register/variable/address> - decrements by 1
        print <register/variable/address> - a macro that prints 
-
+       
+       More information can be found on the project's official Github page:
+       https://github.com/jonaprojects/assemblyEmulator
        '''
     about = '''
        This is Emu++, the python powered emulator. 
-       Clean, simple and effective . Full version in 100$
-       To buy this, enter www.emuplusplus.com/scam/full/ 
+       Clean, simple and effective.
+       View more at https://github.com/jonaprojects/assemblyEmulator
        '''  # add a link to a real C:\ website with bootstrap about this !
 
     special_cmd = '''
