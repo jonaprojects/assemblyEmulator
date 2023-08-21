@@ -1,5 +1,11 @@
 # Welcome to Emu++
 
+![PyPI - Downloads](https://img.shields.io/pypi/dm/assembly-emulator)
+
+![GitHub](https://img.shields.io/github/license/jonaprojects/assemblyEmulator)
+
+A python library for emulating assembly x86. You can execute assembly code from the command line, or upload some code from a text file.
+
 ## Installation
 
 You can install Emu++ by running the following command in the terminal:
@@ -34,7 +40,6 @@ In order to move to the execution stage you can use the <code>%finish</code> spe
 
 For instance:
 ![text editor mode](screenshots/text_editor.png "Menu")
-
 
 You can also enter 'F' to upload the
 assembly code from an external file.
